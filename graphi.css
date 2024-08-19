@@ -1,1163 +1,590 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="graphi.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-      
-    <title>Graphi cloth store</title>
-</head>
-<body>
+.header-contain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px 5px 15px;
+    /* position: fixed;
+    width: 100%;
+    box-shadow: 0 1px 4px hsla(0, 0%, 0%, 0.15);
+    top: 0;
+    background-color: white;
+    z-index: 1000; */
+}
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
 
-    <header>
-        <div class="header-contain">
-            <div class="logo">
-                <img src="imgi/hello_logo.jpg" alt="commer-logo" style="width: 110px;">
-            </div>
-            <div class="search-product">
-                <div class="input">
-                    <input type="text" placeholder="Search your choice...">
-                </div>
-                <div class="icon-search">
-                    <button><i class="material-icons">search</i></button>
-                </div>
-            </div>
-            <div class="nava">
-                <i class="material-icons fele">favorite</i>
-                <i class="material-icons fele">menu</i>
-                <div class="profile">
-                    <img src="imgi/136.jpg" alt="profile picture">
-                </div>
-            </div>
-        </div>
-    </header>
-    
-    <h1 >Wear shopping store</h1>
-    <hr>
-    <div class="ankara">
-        <!-- <div class="scroll"></div> -->
-        <div class="backi">
-            <img src="imgi/tt-1.jpg" alt="shoe">
-        </div>
-        <div class="backi">
-            <img src="imgi/pro.jpg" alt="shoe">
-        </div>
-        <div class="backi">
-            <img src="imgi/shoe1.jpg" alt="shoe">
-        </div>
-        <div class="backi">
-            <img src="imgi/jacket.jpg" alt="store">
-        </div>
-        <div class="backi">
-            <img src="imgi/shoe4.jpg" alt="store">
-        </div>
-        <div class="backi">
-            <img src="imgi/skirt1.jpg" alt="store">
-        </div>
-        <div class="backi">
-            <img src="imgi/sule1.jpg" alt="store">
-        </div>
-    </div>
-    
-    <div class="main">
-        <div class="side">
-            <i class="material-icons fele"></i>
-            <div class="innerside">
-                <ul>
-                    <li><a href="#" class="shoe">shoe</a></li>
-                    <li><a href="#" class="shoe">cloth</a></li>
-                    <li><a href="#" class="shoe">home</a></li>
-                    <li><a href="#" class="shoe">body care</a></li>
-                    <li><a href="#" class="shoe">bed</a></li>
-                    <li><a href="#" class="shoe">bag</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="verse">
-        <div class="sided">
-            <div class="sidein">
-                <div class="program">
-                    <img src="imgi/adas.jpg" alt="">
-                </div>
-                <div class="pp">
-                    <div class="ppt">
-                        <div class="ppr">$40.00</div>
-                        <div class="ppp"><button>Order</button></div>
-                    </div>
-                </div>
-            </div>
-            <div class="sidein">
-                <div class="program">
-                    <img src="imgi/wall2.jpg" alt="">
-                </div>
-                <div class="pp">
-                    <div class="ppt">
-                        <div class="ppr">$30.00</div>
-                        <div class="ppp"><button>Order</button></div>
-                    </div>
-                </div>
-            </div>
-            <div class="sidein">
-                <div class="program">
-                    <img src="imgi/fila3.jpg" alt="">
-                </div>
-                <div class="pp">
-                    <div class="ppt">
-                        <div class="ppr">$45.00</div>
-                        <div class="ppp"><button>Order</button></div>
-                    </div>
-                </div>
-            </div>
-            <div class="sidein">
-                <div class="program">
-                    <img src="imgi/9p.jpg" alt="">
-                </div>
-                <div class="pp">
-                    <div class="ppt">
-                        <div class="ppr">$70.00</div>
-                        <div class="ppp"><button>Order</button></div>
-                    </div>
-                </div>
-            </div>
-            <div class="sidein">
-                <div class="program">
-                    <img src="imgi/red skirt.jpeg" alt="">
-                </div>
-                <div class="pp">
-                    <div class="ppt">
-                        <div class="ppr">$60.00</div>
-                        <div class="ppp"><button>Order</button></div>
-                    </div>
-                </div>
-            </div>
-            <div class="sidein">
-                <div class="program">
-                    <img src="imgi/more.jpg" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="section">
-            <div class="prod">
-                <div class="prod_hover">
-                    <div class="screen">
-                        <div class="lege"><span>50% off</span></div>
-                        <i class="material-icons fele2">favorite</i>
-                    </div>
-                    <div class="buy_price">
-                        <span class="delete">$2000</span>
-                        <span>$1000</span>
-                        <button class="buy">Purchase</button>
-                    </div>
-                </div>
-                <div class="cont">
-                    <div class="img-prod">
-                        <img src="imgi/1p.jpg" alt="shoee" class="img">
-                    </div>
-                    <hr>
-                    <div class="description">
-                        <h1>LOREX SHOE</h1>
-                        <span>Maded with legendary who maded it a logo of logo</span>
-                    </div>
-                </div>
-            </div>
-            <div class="prod">
-                <div class="prod_hover">
-                    <div class="screen">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fele">favorite</i>
-                    </div>
-                    <div class="buy_price">
-                        <span>$2000</span>
-                        <button class="buy">Purchase</button>
-                    </div>
-                </div>
-                <div class="cont">
-                    <div class="img-prod">
-                        <img src="imgi/2p.jpg" alt="shoee" class="img">
-                    </div>
-                    <hr>
-                    <div class="description">
-                        <h1>LOREX SHOE</h1>
-                        <span>Maded with legendary who maded it a logo of logo</span>
-                    </div>
-                </div>
-            </div>
-            <div class="prod">
-                <div class="cont">
-                    <div class="img-prod">
-                        <img src="imgi/3p.jpg" alt="shoee" class="img">
-                    </div>
-                    <hr>
-                    <div class="description">
-                        <h1>LOREX SHOE</h1>
-                        <span>Maded with legendary who maded it a logo of logo</span>
-                    </div>
-                </div>
-            </div>
-            <div class="prod">
-                <div class="cont">
-                    <div class="img-prod">
-                        <img src="imgi/4p.jpg" alt="shoee" class="img">
-                    </div>
-                    <hr>
-                    <div class="description">
-                        <h1>LOREX SHOE</h1>
-                        <span>Maded with legendary who maded it a logo of logo</span>
-                    </div>
-                </div>
-            </div>
-            <div class="prod">
+.ankara{
+    display: flex;
+    margin-top: 70px;
+    overflow-x: scroll;
+    cursor: pointer;
+    height: 450px;
+}
+body h1{
+    margin: 10px 0 0 0;
+    text-align: center;
+    font-size: large;
+    color: brown;
+}
 
-                <div class="cont">
-                    <div class="img-prod">
-                        <img src="imgi/5p.jpg" alt="shoee" class="img">
-                    </div>
-                    <hr>
-                    <div class="description">
-                        <h1>LOREX SHOE</h1>
-                        <span>Maded with legendary who maded it a logo of logo</span>
-                    </div>
-                </div>
-            </div>
-            <div class="prod">
-                <div class="cont">
-                    <div class="img-prod">
-                        <img src="imgi/6p.jpg" alt="shoee" class="img">
-                    </div>
-                    <hr>
-                    <div class="description">
-                        <h1>LOREX SHOE</h1>
-                        <span>Maded with legendary who maded it a logo of logo</span>
-                    </div>
-                </div>
-            </div>
-            <div class="prod">
-                <div class="cont">
-                    <div class="img-prod">
-                        <img src="imgi/17p.jpg" alt="shoee" class="img">
-                    </div>
-                    <hr>
-                    <div class="description">
-                        <h1>LOREX SHOE</h1>
-                        <span>Maded with legendary who maded it a logo of logo</span>
-                    </div>
-                </div>
-            </div>
-            <div class="prod">
-                <div class="cont">
-                    <div class="img-prod">
-                        <img src="imgi/18p.jpeg" alt="shoee" class="img">
-                    </div>
-                    <hr>
-                    <div class="description">
-                        <h1>LOREX SHOE</h1>
-                        <span>Maded with legendary who maded it a logo of logo</span>
-                    </div>
-                </div>
-            </div>
-            <div class="prod">
-                <div class="cont">
-                    <div class="img-prod">
-                        <img src="imgi/13p.jpeg" alt="shoee" class="img">
-                    </div>
-                    <hr>
-                    <div class="description">
-                        <h1>LOREX SHOE</h1>
-                        <span>Maded with legendary who maded it a logo of logo</span>
-                    </div>
-                </div>
-            </div>
-            <div class="prod">
-                <div class="cont">
-                    <div class="img-prod">
-                        <img src="imgi/14p.jpeg" alt="shoee" class="img">
-                    </div>
-                    <hr>
-                    <div class="description">
-                        <h1>LOREX SHOE</h1>
-                        <span>Maded with legendary who maded it a logo of logo</span>
-                    </div>
-                </div>
-            </div>
-            <div class="prod">
-                <div class="cont">
-                    <div class="img-prod">
-                        <img src="imgi/15p.jpeg" alt="shoee" class="img">
-                    </div>
-                    <hr>
-                    <div class="description">
-                        <h1>LOREX SHOE</h1>
-                        <span>Maded with legendary who maded it a logo of logo</span>
-                    </div>
-                </div>
-            </div>
-            <div class="prod">
-                <div class="cont">
-                    <div class="img-prod">
-                        <img src="imgi/16p.jpeg" alt="shoee" class="img">
-                    </div>
-                    <hr>
-                    <div class="description">
-                        <h1>LOREX SHOE</h1>
-                        <span>Maded with legendary who maded it a logo of logo</span>
-                    </div>
-                </div>
-            </div>
-            <div class="prod">
-                <div class="cont">
-                    <div class="img-prod">
-                        <img src="imgi/sk1.jpeg" alt="shoee" class="img">
-                    </div>
-                    <hr>
-                    <div class="description">
-                        <h1>LOREX SHOE</h1>
-                        <span>Maded with legendary who maded it a logo of logo</span>
-                    </div>
-                </div>
-            </div>
-            <div class="prod">
-                <div class="cont">
-                    <div class="img-prod">
-                        <img src="imgi/sk2.jpg" alt="shoee" class="img">
-                    </div>
-                    <hr>
-                    <div class="description">
-                        <h1>LOREX SHOE</h1>
-                        <span>Maded with legendary who maded it a logo of logo</span>
-                    </div>
-                </div>
-            </div>
-            <div class="prod">
-                <div class="cont">
-                    <div class="img-prod">
-                        <img src="imgi/sk3.jpg" alt="shoee" class="img">
-                    </div>
-                    <hr>
-                    <div class="description">
-                        <h1>LOREX SHOE</h1>
-                        <span>Maded with legendary who maded it a logo of logo</span>
-                    </div>
-                </div>
-            </div>
-            <div class="prod">
-                <div class="cont">
-                    <div class="img-prod">
-                        <img src="imgi/fila1.jpg" alt="shoee" class="img">
-                    </div>
-                    <hr>
-                    <div class="description">
-                        <h1>LOREX SHOE</h1>
-                        <span>Maded with legendary who maded it a logo of logo</span>
-                    </div>
-                </div>
-            </div>
-            <div class="prod">
-                <div class="cont">
-                    <div class="img-prod">
-                        <img src="imgi/fila2.jpg" alt="shoee" class="img">
-                    </div>
-                    <hr>
-                    <div class="description">
-                        <h1>LOREX SHOE</h1>
-                        <span>Maded with legendary who maded it a logo of logo</span>
-                    </div>
-                </div>
-            </div>
-            <div class="prod">
-                <div class="cont">
-                    <div class="img-prod">
-                        <img src="imgi/fila3.jpg" alt="shoee" class="img">
-                    </div>
-                    <hr>
-                    <div class="description">
-                        <h1>LOREX SHOE</h1>
-                        <span>Maded with legendary who maded it a logo of logo</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-<!-- section 2 -->
+.backi img{
+    /*background-image: url(//imagi/backgroundcloth.jpg);*/
+   
+    height: 95%;
+    border-radius: 35px;
+    display: flex;
+    margin: auto;
+    width: 600px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+*{
+    box-sizing: border-box;
+    font-family: "roboto condensed";
+    Color: rgb(116, 111, 111);
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+.search-product{
+    display: inline-flex;
+    width: 550px;
+    justify-content: center;
+    height: 40px;
+    border: 2px solid rgb(134, 128, 128);
+    border-radius: 15px;
+    box-shadow: 0 1px 4px hsla(0, 0%, 0%, 0.15);
+}
+.search-product .input input{
+    border-radius: 14px 14px 14px 14px;
+    height: 100%;
+    padding: 6px 0 6px 20px;
+    width: 546px;
+    position: relative;
+    border: none;
+    font-size: 16px;
+    border-right: none;
+    background: transparent;
+}
+.search-product .input input::placeholder{
+    color: rgb(104, 98, 98);
+}
+.ankara:nth-child(5){
+height: 300px;
+}
+.search-product .input input:focus{
+    outline: none;
+    color: rgb(24, 23, 23);
+    background-color: #fffefe;
+}
+.search-product .icon-search{
+    border-radius: 0 13px 13px 0;
+    width: 100px;
+    position: relative;
+    background-color: #bbbcc0;
+    border: 0px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: none;
+    display: none;
+}
 
-    <div class="section22">
-        <div class="section1">
-            <div class="nona">
-                <div class="picture_contain"><img src="imgi/watch.jpg" alt=""></div>
-                <div class="picture_description_contain">
-                    <div class="name_small">
-                        <div class="muet"><h1>Muet shoe</h1></div>
-                        <div class="product_percent">-50%</div>
-                    </div>
-                    <span class="precis">
-                        <span class="cancel_price"><b>$30.00</b></span>
-                        <span class="promo_price">$25.00</span>
-                    </span>
-                </div>
-            </div>
-            <div class="nona">
-                <div class="picture_contain"><img src="imgi/ss2.jpg" alt=""></div>
-                <div class="picture_description_contain">
-                    <div class="name_small">
-                        <div class="muet"><h1>Muet shoe</h1></div>
-                        <div class="product_percent">-50%</div>
-                    </div>
-                    <span class="precis">
-                        <span class="cancel_price"><b>$30.00</b></span>
-                        <span class="promo_price">$25.00</span>
-                    </span>
-                </div>
-            </div>
-            <div class="nona">
-                <div class="picture_contain"><img src="imgi/ss3.jpg" alt=""></div>
-                <div class="picture_description_contain">
-                    <div class="name_small">
-                        <div class="muet"><h1>Muet shoe</h1></div>
-                        <div class="product_percent">-50%</div>
-                    </div>
-                    <span class="precis">
-                        <span class="cancel_price"><b>$30.00</b></span>
-                        <span class="promo_price">$25.00</span>
-                    </span>
-                </div>
-            </div>
-            <div class="nona">
-                <div class="picture_contain"><img src="imgi/ss4.jpg" alt=""></div>
-                <div class="picture_description_contain">
-                    <div class="name_small">
-                        <div class="muet"><h1>Muet shoe</h1></div>
-                        <div class="product_percent">-50%</div>
-                    </div>
-                    <span class="precis">
-                        <span class="cancel_price"><b>$30.00</b></span>
-                        <span class="promo_price">$25.00</span>
-                    </span>
-                </div>
-            </div>
-            <div class="nona">
-                <div class="picture_contain"><img src="imgi/ss5.jpg" alt=""></div>
-                <div class="picture_description_contain">
-                    <div class="name_small">
-                        <div class="muet"><h1>Muet shoe</h1></div>
-                        <div class="product_percent">-50%</div>
-                    </div>
-                    <span class="precis">
-                        <span class="cancel_price"><b>$30.00</b></span>
-                        <span class="promo_price">$25.00</span>
-                    </span>
-                </div>
-            </div>
-            <div class="nona">
-                <div class="picture_contain"><img src="imgi/ss6.jpg" alt=""></div>
-                <div class="picture_description_contain">
-                    <div class="name_small">
-                        <div class="muet"><h1>Muet shoe</h1></div>
-                        <div class="product_percent">-50%</div>
-                    </div>
-                    <span class="precis">
-                        <span class="cancel_price"><b>$30.00</b></span>
-                        <span class="promo_price">$25.00</span>
-                    </span>
-                </div>
-            </div>
-            <div class="nona">
-                <div class="picture_contain"><img src="imgi/ss7.jpg" alt=""></div>
-                <div class="picture_description_contain">
-                    <div class="name_small">
-                        <div class="muet"><h1>Muet shoe</h1></div>
-                        <div class="product_percent">-50%</div>
-                    </div>
-                    <span class="precis">
-                        <span class="cancel_price"><b>$30.00</b></span>
-                        <span class="promo_price">$25.00</span>
-                    </span>
-                </div>
-            </div>
-            <div class="nona">
-                <div class="picture_contain"><img src="imgi/trouser 4.jpg" alt=""></div>
-                <div class="picture_description_contain">
-                    <div class="name_small">
-                        <div class="muet"><h1>Muet shoe</h1></div>
-                        <div class="product_percent">-50%</div>
-                    </div>
-                    <span class="precis">
-                        <span class="cancel_price"><b>$30.00</b></span>
-                        <span class="promo_price">$25.00</span>
-                    </span>
-                </div>
-            </div>
-        </div>
-        <div class="section2">
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/1.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/2.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-    
-    
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/3.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-            
-    
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/4.jpeg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-            
-    
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/5.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-            
-    
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/6.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-    
-    
-    
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/jacket5.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-                
-    
-    
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/shoe.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section23">
-        <h2 class="h2">Trouser...</h2>
-        <div class="section231 first-mid">
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/trouser 1.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-                
-        
-        
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/trouser 2.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-                
-        
-        
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/trouser 3.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section23">
-        <div class="section231">
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/trouser 4.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-                
-        
-        
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/trouser 5.jpeg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-                
-        
-        
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/trouser 6.jpeg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section23">
-        <div class="section231">
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/trouser 7.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-                
-        
-        
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/trouser 8.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-                
-        
-        
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/more.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <h2 class="h2">Coat...</h2>
-    <div class="section23">
-        <div class="section231">
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/8.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-                
-        
-        
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/9.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-                
-        
-        
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/10.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section23">
-        <div class="section231">
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/11.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-                
-        
-        
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/12.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-                
-        
-        
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/more.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <h2 class="h2">Lady shoe...</h2>
-    <div class="section23">
-        <div class="section231">
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/13.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-                
-        
-        
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/14.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-                
-        
-        
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/15.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section23">
-        <div class="section231">
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/16.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-                
-        
-        
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/17.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-                
-        
-        
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/more.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-        </div>
-    </div>
+.search-product .icon-search i{
+    color: white;
+}
+button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.fele{
+    margin-right: 18px;
+    color: black;
+}
+.nava{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nava .profile img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+}
+.product-contain{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 200px;
+}
 
-    <h2 class="h2">Clock and Jwelries...</h2>
-    <div class="section23">
-        <div class="section231">
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/18.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-                
-        
-        
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/19.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-                
-        
-        
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/20.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section23">
-        <div class="section231">
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/21.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-                
-        
-        
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/22.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-                
-        
-        
-            <div class="cloth_container">
-                <div class="cloth_img"><img src="imgi/more.jpg" alt="" id="sel"></div>
-                <div class="cloth_description">
-                    <div class="dis">
-                        <div class="lege">50% off</div>
-                        <i class="material-icons fle">favorite</i>
-                    </div>
-                    <div class="disi">
-                        <div class="dele">$1000</div>
-                        <div class="love_del">$900</div>
-                    </div>
-                    <button class="purchase">Purchase</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <h2 style="color: black; text-align: center; margin-top: 50px;">Testimonial</h2>
-    <div class="testimonial">
-        <div class="_person">
-            <img src="imgi/135.jpg" alt="">
-            <h3>John Racheal</h3>
-            <p><B>Review: </B>Their product is unique</p>
-        </div>
-        <div class="_person">
-            <img src="imgi/107.jpg" alt="">
-            <h3>Musmin Locus</h3>
-            <p><B>Review: </B>Such a good store</p>
-        </div>
-    </div>
-    <footer>
-        <div class="introduction">
-            <h1>Graphi</h1>
-            <p>Leading the innovation in ecommerce and online shopping customer exprience.</p>
-        </div>
-        <div class="links">
-            <div class="quick_links">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="#">Account</a></li>
-                    <li><a href="#">Shipment</a></li>
-                    <li><a href="#">FAQs</a></li>
-                    <li><a href="#">Returns policy</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-            </div>
-            <div class="about">
-                <h4>About</h4>
-                <ul>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Terms & Condition</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-            </div>
-            <div class="support">
-                <h4>Support</h4>
-                <ul>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Shipment</a></li>
-                    <li><a href="#">FAQs</a></li>
-                    <li><a href="#">Returns policy</a></li>
-                </ul>
-            </div>
-            <div class="account">
-                <h4>Account</h4>
-                <ul>
-                    <li><a href="#">Profile</a></li>
-                    <li><a href="#">Orders</a></li>
-                    <li><a href="#">Address Book</a></li>
-                    <li><a href="#">Compare</a></li>
-                    <li><a href="#">Wishlist</a></li>
-                </ul>
-            </div>
-        </div>
-        <hr>
-        <div><img src="imgi/payment_methods.jpg" alt="" style="width: 100%; height: 20px;"></div>
-    </footer>
-    <script src="graphi.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+.product-contain div img{
+    width: 300px;
+}
 
-</body>
-</html>
+.side{
+    width: 20px;
+    height: 50px;
+    background: transparent;
+    box-shadow: -0.5px -0.5px rgb(139, 134, 134);
+    border: 2px solid rgb(4, 5, 14);
+    margin: 100px 20px 100px 20px;
+    border-radius: 35px;
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    z-index: 1000;
+    transition: ease-out 0.5s;
+}
+.innerside{
+    position: absolute;
+    height: 300px;
+    width: 100px;
+    margin: 30px 20px 100px 24px;
+    display: none;
+    background-color: /*rgb(233, 227, 227)*/blue;
+    box-shadow: -1px -1px -1px --1px rgb(223, 220, 220);
+    border-radius: 30px;
+    padding: 3px;
+    transition: ease-out 2s;
+}
+.side::after{
+    content:"";
+    position: absolute;
+    height: 300px;
+    width: 10px;
+    margin: 30px 20px 100px 15px;
+    background: transparent;
+    box-shadow: -1px -1px -1px -1px rgb(223, 220, 220);
+    z-index: -2;
+
+}
+.innerside ul{
+    list-style-type: none;
+    color: white;
+    line-height: 40px;
+    background-color: black;
+    opacity: 0.2;
+    padding: 2px;
+    border-radius: 25px;
+    height: 280px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.innerside ul li{
+    border-bottom: 2px solid gray;
+}
+.side:hover .innerside{
+    display: block;
+    transform: scale(1);
+}
+.side:hover{
+    height: 300px;
+}
+.shoe:hover{
+    color: rgb(225, 225, 225);
+}
+.verse{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-gap: 20px;
+    margin: 25px 0 25px 0;
+}
+.sided{
+    background-color: rgb(255, 255, 255);
+    padding-top: 15px;
+    display: block;
+    justify-items: center;
+}
+.sidein:hover .pp{
+    display: block;
+    transition: ease-out 2s;
+}
+.pp{
+    display: none;
+    margin-top: 20px;
+    margin-left: 85px;
+    border-radius: 10px;
+    height: 60px;
+    width: 80px;
+    padding: 2px;
+    border: 1px solid rgb(170, 170, 231);
+    align-items: center;
+}
+.ppt{
+    display: grid;
+    grid-template-rows: 2;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+}
+.ppt>*{
+    color: black;
+}
+.ppp button{
+    background-color: rgb(10, 10, 34);
+    border-radius: 35px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+.ppp button:hover{
+    background-color: black;
+}
+.program img{
+    width: 250px;
+    border-radius: 7px;
+    margin: 15px 0 0 10px;
+}
+/* section */
+
+.section{
+
+    background-color: white;
+    display: grid;
+    gap: 20px;
+    align-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+/* product */
+
+.prod{
+    height: 280px;
+    width: 200px;
+    padding: 0px;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid rgb(167, 158, 158);
+    /* box-shadow: -4px 0 4px rgba(209, 201, 201, 0.2), 0 4px 4px rgba(209, 201, 201, 0.2), 0 -4px 4px rgba(209, 201, 201, 0.2); */
+    border-radius: 13px;
+    box-shadow: 0 5px 20px hsla(0, 0%, 0%, 0.15);
+    background-color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.prod:hover{
+    transform: scale(1.02);
+}
+.prod_hover{
+    width: 196px;
+    height: 275.5px;
+    border-radius: 11px;
+    position: absolute;
+    background-color: rgba(179, 157, 157, 0.1);
+    display: none;
+    justify-items: center;
+}
+.fele2{
+    color: red;
+}
+.prod:hover .prod_hover{
+    display: block;
+}
+.prod_hover>*{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: bold;
+    padding: 10px;
+}
+.screen{
+    margin-top: 10px;
+    color: white;
+}
+.lege>*{
+    background-color: black;
+    padding: 4px;
+    border-radius: 15px;
+    color: white;
+}
+.screen>*{
+    color: rgb(0, 0, 0);
+}
+.buy_price{
+    margin-top: 193.5px;
+    color: white;
+    background-color: rgb(255, 255, 255);
+    padding: 2px;
+    font-family: sans-serif;
+    width: 198px;
+    border: 0 0.5px 0.5px 0.5px solid gray;
+    padding: 2px;
+    border-radius: 0 0 12px 12px;
+}
+.buy_price>*{
+    color: black;
+}
+.buy_price .delete{
+    color: rgb(248, 80, 2);
+    text-decoration: line-through black;
+}
+.cont{
+    row-gap: 10px;
+    margin: 5px;
+}
+.prod .cont .img{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 175px;
+    height: 160px;
+}
+.buy{
+    background-color: rgb(17, 16, 16);
+    border-radius: 4px 4px 7px 4px;
+    width: 90px;
+    height: 30px;
+    font-weight: bold;
+    padding: 6px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    box-shadow: -0.5px -0.5px rgba(145, 137, 137, 0.5);
+}
+.buy:hover{
+    color: white;
+    background-color: brown;
+}
+.section22{
+    display: grid;
+    grid-template-columns: 2fr 5.5fr;
+}
+.section1{
+    background-color: rgba(238, 234, 234, 0.5);
+    box-shadow: 3px 3px  rgba(77, 71, 71, 0.1);
+    border-radius: 7px;
+    padding-top: 30px;
+}
+.section2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-items: center;
+    grid-gap: 5px/30px;
+    width: 80%;
+    margin-left: 40px;
+    /* padding-left: 20px; */
+    justify-items: center;
+}
+/* the cloth */
+
+.cloth_container{
+     /* background-color: black;  */
+    width: 280px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.cloth_img{
+    position: relative;
+    border-radius: 7px;
+    z-index: 1;
+}
+.cloth_img img{
+    width: 170px;
+    height: 170px;
+    border-radius: 13px;
+    box-shadow: 0 5px 20px hsla(0, 0%, 0%, 0.15);
+}
+.cloth_description{
+    background-color: brown;
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    height: 130px;
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+.cloth_description .dis, .cloth_description .dis>*{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.fle{
+    margin-left: 7px;
+}
+.disi{
+    display: block;
+    color: white;
+    align-items: center;
+}
+.dele{
+    color: white;
+    text-decoration: line-through rgb(143, 23, 23) 2px;
+}
+.love_del{
+    color: white;
+    margin-left: 5px;
+}
+.cloth_description button{
+    background-color: black;
+    color: #fff;
+    border-radius: 6px;
+    width: 80px;
+    height: 30px;
+    font-family: sans-serif;
+    z-index: 10;
+    font-weight: bolder;
+    font-size: 500;
+    letter-spacing: 0.5px;
+}
+.cloth_container:hover .cloth_img img{
+    transform: scale(1.03);
+}
+.purchase:hover{
+    background-color: white;
+    color: black;
+    font-weight: 70px;
+    letter-spacing: 0.5px;
+}
+
+/* nona */
+
+.nona{
+    height: 80px;
+    width: 250px;
+    border: none;
+    background: transparent;
+    /* box-shadow: 1px 1px 1px 1px rgba(40, 23, 23, 0.2); */
+    box-shadow: 0 5px 20px hsla(0, 0%, 0%, 0.15);
+    margin: 30px 0 0 0;
+    margin-left: 10px;
+    border-radius: 5px;
+    display: flex;
+    padding: 4px;
+    justify-content: space-around;
+    align-items: center;
+}
+.nona:hover{
+    transform: scale(1.03);
+}
+
+.devine{
+    width: 100%;
+    height: 100%;
+}
+
+.nona .picture_contain img{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+}
+.name_small{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    margin-bottom: 8px;
+}
+.name_small>*>*{
+    color: #000000;
+    font-weight: 20px;
+    font-family: sans-serif;
+}
+.product_percent{
+    color: white;
+    font-size: 10px;
+    background-color: rgb(18, 12, 43);
+    padding: 4px;
+    border-radius: 35px;
+    margin-left: 2px;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+}
+.precis>*{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: medium;
+}
+.cancel_price>*{
+    text-decoration: line-through rgb(255, 255, 255) 2px;
+    color: rgb(0, 0, 0);
+    margin-right: 5px;
+}
+
+.product_description_contain{
+    display: block;
+    padding: 2px;
+}
+
+.h21{
+    color: black;
+    margin-left: 80px;
+    margin: 0 0 0 300px;
+    font-family: sans-serif;
+}
+
+.h2{
+    color: black;
+    margin-left: 80px;
+    margin: 80px 0 0 80px;
+    font-family: sans-serif;
+}
+.section231{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.first-mid>*{
+    margin-top: 40px;
+}
+.testimonial{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+.testimonial ._person{
+    display: block;
+    height: 250px;
+    width: 250px;
+    background-color: rgba(247, 127, 14, 0.1);
+    margin: 0 50px 0 50px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 3px;
+}
+.testimonial ._person img{
+    width: 80px;
+}
+
+/* footer */
+footer{
+    background-color: rgb(2, 2, 8);
+    padding: 20px 5px;
+}
+.introduction>*{
+    color: white;
+    text-align: left;
+}
+.links{
+    color: white;
+    display: flex;
+}
+
+.links>*{
+    margin-left: 50px;
+}
+.links>*>*{
+    color: white;
+}
+.links>*>*>*>*:hover{
+    color: white;
+    border-bottom: 1px solid white;
+    transition: ease-out 0.5s;
+}
